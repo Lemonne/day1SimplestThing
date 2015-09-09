@@ -7,6 +7,7 @@
  * - How to draw the chart.
  *
  * @author: Tanya L. Crenshaw
+ * @author: Nerissa Lemon
  * @since: Jan 6, 2015
  */
 
@@ -52,11 +53,15 @@ function drawChart() {
             title: 'Month',
             gridlines: {count: 12}
         },
+        animation: {
+            "startup" : true,
+            "duration" : 500
+        },
         vAxis: {
             title: 'People Hours'
         },
-	legend: { 
-	    position: 'none' 
+	legend: {
+	    position: 'none'
 	}
     };
 
