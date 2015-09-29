@@ -1,0 +1,6 @@
+{
+"name": "NerissaLemon"
+"description": "Heroku Lab stuff", 
+"repository": "https://github.com/lemmonne/day1SimplestThing",
+"keywords": ["node", "express", "static"]
+}
