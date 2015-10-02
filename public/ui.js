@@ -26,11 +26,11 @@ var initialize = function() {
 
     // Grab the 'About' button element, identified by the                                                                          
     // 'about-btn' id.                                                                                                             
-    var button = document.getElementById('about-btn');
+   // var button = document.getElementById('about-btn');
 
     // From this point forward, when the button is clicked, the                                                                   
     // toggle function shall be invoked.                                                                                           
-    button.onclick = toggle;
+   // button.onclick = toggle;
 
 	 // Grab the 'Submit' button element, identified by the                                       
     // 'submit-btn' id.                                                                          
