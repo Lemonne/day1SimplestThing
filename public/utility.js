@@ -9,7 +9,8 @@
  * http://sonnyt.com/javascript-check-if-element-has-class/
  *                                                                                                                 
  */
-
+var librs = librs || {};
+librs.utility = function {
 
 // hasClass
 //
@@ -66,3 +67,7 @@ var removeClass = function(element, classToRemove) {
 	return;
     }
 };
+}; //end module
+
+//invoke module
+librs.utility();

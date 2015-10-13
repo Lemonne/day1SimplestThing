@@ -10,7 +10,7 @@
  * @author: Nerissa Lemon
  * @since: Jan 6, 2015
  */
-
+var libs = libs || {};
 google.load('visualization', '1', {packages: ['corechart']});
 
 google.setOnLoadCallback(vizInit);
